@@ -1,10 +1,9 @@
-import {Video} from "../types/Video";
-import {FC} from "react";
+import { Video } from "../types/Video";
 
-export interface Props {
+interface Props {
     videos: Video[];
 }
 
-export const VideoList: FC<Props> = ({ videos }) => {
-    return <div>TODO...</div>;
+export const VideoList = ({ videos }: Props) => {
+    return <div>TODO... </div>;
 };
